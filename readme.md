@@ -54,7 +54,7 @@ java -jar -Dspring.profiles.active=local,infra_local application/target/api-mark
 ## 🎬 Executando imagem
 
 ``` sh
-docker run -d -p 8080:8080 --name=api-market-place rodsordi/api-market-place:master
+docker run -d -p 8080:8080 --name=api-market-place sancrisxa/api-market-place:master
 ```
 
 ## 👌 Executando Testes
@@ -71,4 +71,4 @@ docker run -d -p 8080:8080 --name=api-market-place rodsordi/api-market-place:mas
 
 ## ✒ Autores
 
-- [Rodrigo de Sordi](https://github.com/rodsordi)
+- [Samuel Xavier](https://github.com/sancrisxa)
